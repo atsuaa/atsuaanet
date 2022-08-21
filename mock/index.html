@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>atsuaa</title>
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- google font icon -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./css/google-font-icon.css" />
+
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "esj0bfo",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+  </head>
+  <body>
+    <!-- ヘッダー -->
+    <div class="header">
+      <h1 class="logo">
+        <a href="">
+          <img src="./img/logo.png" alt="ロゴ" />
+        </a>
+      </h1>
+      <ul class="header__nav">
+        <li>トップ</li>
+      </ul>
+    </div>
+    <!-- /ヘッダー -->
+    <!-- メイン -->
+    <main class="main">
+      <!-- Qiitaリンク集リスト -->
+      <div class="wrapper">
+        <div class="type01-content__list">
+          <div class="type01-content__list-item font-bold">
+            <div class="type01-card">
+              <span>2022</span>
+            </div>
+          </div>
+          <div class="type01-content__list-item">
+            <div class="type01-card">
+              <img
+                src="./img/shigureni/60838286dad40d640b48c348_23.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="type01-content__list-item">
+            <div class="type01-card scroll">
+              <div>
+                <p>Windows11 TeraTermでEC2にssh接続する</p>
+                <ul class="type01-content__tag-list">
+                  <li class="type01-content__tag badge">EC2</li>
+                  <li class="type01-content__tag badge">ssh</li>
+                  <li class="type01-content__tag badge">hoge-hoge</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="type01-content__list-item">
+            <div class="type01-card">
+              <img src="./img/logo.png" alt="" />
+            </div>
+          </div>
+          <div class="type01-content__list-item">
+            <div class="type01-card">
+              <img class="type01-card__img" src="./img/pages/p001.png" alt="" />
+            </div>
+          </div>
+          <div class="type01-content__list-item">
+            <div class="type01-card">
+              <div>
+                <img
+                  src="./img/shigureni/60f95161b382b3c00f3b3057_80_cat_box_ol.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Qiitaリンク集リスト説明 -->
+        <div class="type01-content__info">
+          <a href="">
+            <h2>Qiita Links</h2>
+            <p>
+              これまでに投稿したQiita記事のリンク集。<br />
+              記事のタイトル、タグ、画像を最新順に並べている。<br />
+              小さな緑色はタグ。
+            </p>
+            <span class="material-symbols-outlined type01-content__info-allow">
+              arrow_forward_ios
+            </span>
+          </a>
+        </div>
+        <!-- /Qiitaリンク集リスト説明 -->
+        <div class="type01-content__list">
+          <div class="type01-content__list-item">
+            <div class="type01-card">
+              <ul class="type01-content__tag-list">
+                <li class="type01-content__tag badge">EC2</li>
+                <li class="type01-content__tag badge">ssh</li>
+                <li class="type01-content__tag badge">ssh</li>
+                <li class="type01-content__tag badge">ssh</li>
+              </ul>
+            </div>
+          </div>
+          <div class="type01-content__list-item">
+            <div class="type01-card">
+              <div>
+                <img src="./img/dainishoukyuushi.jpg" alt="" />
+                <p>daini</p>
+              </div>
+            </div>
+          </div>
+          <div class="type01-content__list-item">
+            <div class="type01-card">
+              <div>
+                <img
+                  src="./img/shigureni/61bf09b6c69c24245d6457d3_4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /Qiitaリンク集リスト -->
+    </main>
+    <!-- /メイン -->
+
+    <script src="./js/common.js"></script>
+  </body>
+</html>
